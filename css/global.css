@@ -1,0 +1,88 @@
+:root {
+    --general_bg: #FFFFFF;
+    --general_bg2: #161D2F;
+    --general_text: #FFFFFF;
+    --general_text2: #222222;
+    --acent-text: #4B4B4B;
+    --acent-title: #161D2F;
+    --acent-bg: linear-gradient(90.00deg, #09203f, #161d2f 100%);
+    --transition: all .4s;
+    --btn-bg: linear-gradient(137.60deg, rgb(48, 67, 169) 11.985%, rgb(31, 98, 159) 96.601%);
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5vh;
+}
+
+.body {
+    font-family: "Poppins", "Arial", sans-serif;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.logo{
+    transition: var(--transition);
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.btn {
+    color: var(--general_text);
+    width: 100%;
+    border-radius: 28px;
+    background: linear-gradient(137.60deg, rgb(48, 67, 169) 11.985%, rgb(31, 98, 159) 96.601%);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 12px 37px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: var(--transition);
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.contact-btn {
+    width: 100%;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    padding: 12px 29px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    transition: var(--transition);
+    
+}
+
+.contact-btn:hover {
+    background: var(--general_text);
+    color: var(--general_bg2);
+    transform: scale(1.1);
+}

@@ -1,0 +1,689 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+
+
+
+.main-programs {
+    margin: 100px 0;
+    color: var(--general_text2);
+}
+
+
+
+
+.programs_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.programs_heading span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.programs_title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 30px;
+    max-width: 590px;
+}
+
+.programs_slider {}
+
+.programs_wrapper {}
+
+
+
+
+
+
+.programs_slide {
+    max-width: 350px;
+}
+
+.program_slide-inner {
+    text-align: left;
+}
+
+.programs_img {
+    max-width: 350px;
+    max-height: 240px;
+    margin-bottom: 20px;
+    padding-bottom: 240px;
+    position: relative;
+}
+
+.programs_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: 50% 50%;
+    border-radius: 10px;
+
+}
+
+.programs_slide-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.program_slide-by {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.programs_slide-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.programs_slide-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #3043A9;
+}
+
+.swiper-wrapper {}
+
+.container_slider-btns {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+
+}
+
+.program_button-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+
+
+
+}
+
+.program_button-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.program_button-prev,
+.program_button-next {
+    cursor: pointer;
+
+}
+
+.program_button-prev:active,
+.program_button-next:active {
+    transform: scale(0.8);
+}
+
+
+
+
+/* ===========Nutritions=========== */
+
+.main_nutritions {
+    padding: 100px 0;
+}
+
+.nutritions_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.nutritions_hero {
+    width: 100%;
+    height: 480px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.nutritions_hero-top {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    z-index: 0;
+
+}
+
+.nutritions_hero-bottom {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.nutritions_top-img {
+    position: relative;
+}
+
+.nutritions_top-img img {
+    border-radius: 10px;
+}
+
+.nutritions_card-top {
+    position: absolute;
+    top: 0;
+    left: -100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    background: #161d2f;
+    color: var(--general_text);
+}
+
+.nutritions_bottom-img {
+    position: relative;
+}
+
+
+.nutritions_bottom-img img {
+    border-radius: 10px;
+}
+
+.nutritions_card-bottom {
+    position: absolute;
+    bottom: 0;
+    right: -133px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10px;
+    padding: 15px;
+    max-width: 200px;
+    border-radius: 10px;
+    background: #262626;
+    color: var(--general_text);
+}
+
+.nutritions_content {
+    max-width: 445px;
+}
+
+.nutritions_content span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.nutritions_title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.nutritions_text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+
+}
+
+.nutritions_text span {
+    display: inline;
+    font-weight: 500;
+}
+
+.nutritions_btn {
+    max-width: 157px;
+}
+
+
+
+/* =======pricing========= */
+
+.main_pricing {
+    padding: 100px 0;
+    background:
+        linear-gradient(to bottom, transparent 50%, #fff 50%),
+        linear-gradient(90.00deg, #09203f, #161d2f 100%)
+}
+
+
+
+.pricing-heading {
+    color: var(--general_text);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.pricing-heading span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.pricing_title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150%;
+    max-width: 500px;
+
+}
+
+.pricing_cards-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing_card {
+    max-width: 350px;
+    min-height: 682px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    box-shadow: 0px 16px 35px 0px rgba(112, 144, 176, 0.2);
+    background-color: var(--general_bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing_card-title {
+    color: var(--general_bg2);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    padding: 30px 0 5px;
+    margin-bottom: 10px;
+}
+
+.pricing_img-wrapper {
+    width: 188px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.pricing_card-img img {
+    object-fit: cover;
+    object-position: 50% 25%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+.pricing_card-by {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+
+.prising_card-list {}
+
+.pricing_card-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.pricing_card-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.pricing_card-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+
+.pricing_card-price {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 2px;
+}
+
+.pricing_card-price span {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.pricing_card-btn {
+    padding: 15px 20px;
+    max-width: 161px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing_card-price {
+    margin-top: auto;
+    margin-bottom: 30px;
+
+}
+
+.btn {}
+
+.standart-card {
+    position: relative;
+}
+
+.popular_product {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 35px 0px 35px;
+    background: #63c776;
+    padding: 27px 10px;
+
+    color: var(--general_text);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+
+/* =========about======== */
+
+.main_about {
+    padding: 100px 0;
+    background: var(--general_bg);
+}
+
+
+.about_heading {
+    color: var(--general_text2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+
+
+}
+
+.about_heading span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.about_title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150%;
+    max-width: 445px;
+}
+
+
+.about_quotation-left {
+    position: absolute;
+    top: -10px;
+    left: 255px;
+}
+
+.about_quotation-right {
+    position: absolute;
+    top: -10px;
+    right: 255px;
+}
+
+.about_statistics {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.statistics_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+}
+
+.verticalLine {
+    border-left: 1px solid #000;
+    height: 100px;
+}
+
+.statistics_title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+
+.statistics_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.about_advantages {}
+
+.advantages_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.advantages_item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.advantages_img {
+    background: #c2d8fe;
+    border-radius: 50%;
+
+}
+
+.timeflash-icon {
+    padding: 10px;
+}
+
+.dumbbell-icon {
+    padding: 15px;
+
+}
+
+.ToDoList-icon {
+    padding: 15px 20px;
+}
+
+.meet-icon {
+    padding: 17.5px 15px;
+}
+
+
+.advantages_content {
+    text-transform: capitalize;
+    max-width: 440px;
+}
+
+.advantages_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 5px;
+}
+
+.advantages_text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+
+
+/* ======contact========= */
+
+.main_contact {
+    padding: 100px 0;
+
+}
+
+.contact_inner {
+    background: var(--general_bg2);
+    color: var(--general_text);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 150px; */
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+.contact_membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 571px;
+
+
+}
+
+.membership_title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.membership_form {
+    display: flex;
+    gap: 30px;
+}
+
+.membership_form-label {}
+
+.field_input {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 34px;
+    padding: 16px 0 16px 24px;
+    background: transparent;
+    width: 283px;
+    color: var(--general_text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.membership-btn {
+    max-width: 160px;
+}
+
+.btn {}
+
+.contact_decor {
+    grid-template-columns: repeat(2,1fr);
+    width: 289px;
+    height: 306px;
+    position: relative;
+}
+
+
+.decor_img1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    max-width: 138px;
+}
+.decor_img2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 138px;
+}
+.decor_img3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 138px;
+}
+.decor_img4 {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    max-width: 138px;
+}
+
+
+
+
+
+
+.decor_img-wrapper {
+    position: relative;
+    padding-bottom: 135px;
+    width: 138px;
+    max-height: 135px;
+}
+
+.decor_img-wrapper img{
+    position: absolute;
+    object-fit: none;
+    object-position: 50% 50%;
+    width: 138px;
+    height: 100%;
+    border-radius: 10px;
+
+}

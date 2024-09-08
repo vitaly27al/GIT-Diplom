@@ -1,0 +1,15 @@
+<svg width="20.000000" height="14.000000" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_359">
+			<rect id="logos:youtube-icon" rx="-0.500000" width="19.000000" height="13.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="logos:youtube-icon" rx="-0.500000" width="19.000000" height="13.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_359)">
+		<path id="Vector" d="M19.55 2.18C19.44 1.76 19.21 1.37 18.9 1.06C18.59 0.75 18.21 0.53 17.78 0.42C16.23 0 9.98 0 9.98 0C9.98 0 3.74 0.01 2.19 0.43C1.76 0.54 1.38 0.77 1.06 1.08C0.75 1.38 0.53 1.77 0.42 2.19C-0.05 4.94 -0.24 9.12 0.43 11.76C0.54 12.18 0.77 12.56 1.08 12.87C1.39 13.18 1.77 13.4 2.2 13.52C3.75 13.94 10 13.94 10 13.94C10 13.94 16.24 13.94 17.8 13.52C18.22 13.4 18.61 13.18 18.92 12.87C19.23 12.56 19.45 12.18 19.57 11.76C20.06 9.01 20.21 4.83 19.55 2.18L19.55 2.18Z" fill="#FF0000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M8 9.95L13.18 6.97L8 3.98L8 9.95Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
